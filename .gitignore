@@ -1,0 +1,40 @@
+# Build folders (ANYWHERE in project)
+**/bin/
+**/Debug/
+**/Release/
+**/obj/
+
+# Visual Studio packages
+packages/
+
+# Model files
+*.pt
+*.h5
+*.onnx
+
+# Datasets
+Imae_dataset/
+character_Dataset/
+ocr_data/
+
+# Media
+*.mp4
+*.avi
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+# Visual Studio
+.vs/
+
+# Build folders
+**/bin/
+**/obj/
+
+# YOLO weights (VERY IMPORTANT)
+*.weights
